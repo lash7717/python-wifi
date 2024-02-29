@@ -52,8 +52,11 @@ if __name__=="__main__":
             pass
     elif iface.status()==const.IFACE_DISCONNECTED:
         check_wifi(iface)
-        wifi_name=input("请输入想破解wifi名称:")
-        print("---开始破解---")
+        wifi_name=input("TP-LlNk305:")
+        
+        print("---开始破
+        解--
+        -")
         with open(file_path,"r") as f:
             while True:
                 pwd=f.readline().strip("\n")
